@@ -1,0 +1,24 @@
+{
+    "name": "apstery/apster",
+    "description": "The Apster PHP codebase for online servers and APIs",
+    "version": "0.0.1",
+    "type": "application",
+    "homepage": "https://apstery.nl/apster",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Wubbo Bos",
+            "email": "wubbo@wubbobos.nl",
+            "homepage": "https://wubbobos.nl",
+            "role": "Lead developer"
+        }
+    ],
+    "require": {
+        "zendframework/zend-diactoros": "1.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    }
+}
